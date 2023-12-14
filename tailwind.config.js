@@ -8,7 +8,9 @@ export default {
     extend: {
       fontFamily: {
         'satoshi': ["Satoshi-Regular", "sans-serif"],
+        'satoshi-medium': ["Satoshi-Medium", "sans-serif"],
         'satoshi-bold': ["Satoshi-Bold", "sans-serif"],
+        'satoshi-black': ["Satoshi-Black", "sans-serif"],
     },
   },
   plugins: [],

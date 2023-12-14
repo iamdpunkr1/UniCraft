@@ -18,7 +18,7 @@ const Navbar = () => {
       <nav className="px-[90px]">
         <div className="flex items-center justify-between h-16">
             <h1 className="text-center text-gray-700 text-2xl font-satoshi-bold font-bold">UniCraft</h1>
-            <ul className="flex items-center gap-12 text-lg font-medium text-gray-700">
+            <ul className="flex items-center gap-12 text-lg font-satoshi-medium font-medium text-gray-700">
                 <li className="">How it works</li>
                 <li className="">Pricing</li>
                 <li className="">FAQ</li>

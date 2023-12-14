@@ -1,5 +1,7 @@
+import Carousel from "./components/Carousel"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
+import WorkSection from "./components/WorkSection"
 
 function App() {
 
@@ -10,6 +12,8 @@ function App() {
             <Navbar />
             <Hero />
           </div>
+          <Carousel />
+          <WorkSection />
         </div>
         </>
         )
