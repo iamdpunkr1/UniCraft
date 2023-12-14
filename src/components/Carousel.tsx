@@ -45,7 +45,7 @@ const Carousel = () => {
       };
 
   return (
-    <div className="my-[80px] ">
+    <div className="mb-[80px] ">
     <Slider {...settings}>
         {images.map((image) => (
             <div key={image.id} className='rounded'>
