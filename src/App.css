@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'satoshiregular', sans-serif;
+}
+
+.custom-gradient {
+  background-image: linear-gradient(to right, #FFF 32.26%, rgba(255, 255, 255, 0.00) 79.75%);
+
+}
