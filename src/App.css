@@ -5,11 +5,13 @@
   
 }
 
-.custom-text{
-  background-image: linear-gradient(180deg, #D8B4FE -1.9%, rgba(216, 180, 254, 0.00) 172.76%);
-  background-clip: transparent;
+
+
+.only-gradient{
+  z-index: -99;
+  background: linear-gradient(180deg, #D8B4FE -5.9%, rgba(216, 180, 254, 0.00) 115.76%);
   -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
-  }
+  color: transparent;
+  display: inline-block;
+  line-height: 1;
+}
