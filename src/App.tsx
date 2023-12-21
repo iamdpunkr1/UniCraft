@@ -5,6 +5,7 @@ import WorkSection from "./components/WorkSection"
 import './App.css'
 import Quote from "./components/Quote"
 import Pricing from "./components/Pricing"
+import FAQ from "./components/FAQ"
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
           <WorkSection />
           <Quote />
           <Pricing/>
-          
+          <FAQ/>
         </div>
         </>
         )
