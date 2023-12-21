@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar"
 import WorkSection from "./components/WorkSection"
 import './App.css'
 import Quote from "./components/Quote"
+import Pricing from "./components/Pricing"
+
 function App() {
 
   return (
@@ -16,6 +18,8 @@ function App() {
           <Carousel />
           <WorkSection />
           <Quote />
+          <Pricing/>
+          
         </div>
         </>
         )

@@ -4,7 +4,7 @@ import Avatar from '../assets/quote/Avatar.png'
 
 const Quote = () => {
   return (
-    <section className='bg-gray-50 px-24 py-20 flex flex-col gap-y-10 items-center'>
+    <section className='bg-gray-50 px-24 py-20 flex flex-col gap-y-10 items-center mb-28'>
       <div className='flex gap-2'>
         <img src={Logo} alt='logo' />
         <img src={LogoType} alt='logo type' />
